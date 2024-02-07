@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background: none;
+    display: flex;
+    background-color: transparent;
+}
+img{
+    width: 100%;
+}
+
+   
+
+#si{
+    width: 40px;
+    height: 40px;
+    
+}
