@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -20,7 +23,6 @@ nav{
     justify-content: space-between;
     position:sticky;
     bottom:0;
-    background-color: #002E5F;
 }
 
 nav ul{
@@ -40,7 +42,6 @@ a{
     color: white;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
-    font-weight:bolder;
 }
 a:hover{
     text-decoration: underline;
@@ -50,32 +51,146 @@ a:hover{
     text-align: center;
     font-size: 27px;
     font-family: 'Poppins', sans-serif;
-    color: white;
+    color: #ffffff;
     margin-top: 250px;
-    font-weight: bold;
+
 }
 .about{
     margin: 80px;
+    padding: 40px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     line-height: 35px;
-    font-weight: bolder;
 }
  .heading{
     font-family: 'Poppins', sans-serif;
     letter-spacing: 3px;
-    font-weight: 900;
-    font-size:30px ;
-    line-height: 35px;
+    font-size: 40px ;
+    line-height: 40px;
 }
  .subhead{
     line-height: 35px;
+    font-size: 20px;
+    padding: 15px 0px ;
 }
 .para{
-    font-size: 15px;
-    font-weight: 900px;
+    font-size: 18px;
+}
+button{
+    border-radius: 25px;
+    padding: 9px 22px;
+    margin-top: 20px;
+    border-color: #002E5F;
+    background-color: #ffffff;
+}
+button:hover{
+    background-color: #002E5F;
+    color:#ffffff;
+}
+
+.services{
+    background-color: #f2f2f2;
+    padding: 80px 140px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
     line-height: 35px;
 }
-strong{
-    font-weight: bold;
+.card-container{
+    display: flex;
+    justify-content:space-between;
+    
+}
+.card1 ,.card2 ,.card3{
+    background-color: #ffffff;
+    border-radius: 40px;
+    padding: 41px 39px;
+    margin: 36px  26px;
+} 
+i{
+    border: 1px solid gray;
+    border-radius: 12px;
+    padding: 10px;
+}
+.counter{
+    background: url(/images/img2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 20px;
+}
+.test1{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    color: aliceblue;
+    margin: 10px;
+}
+.test1 i{
+    border:none;
+    font-size: 26px;
+
+}
+.test1 p{
+    font-size: 50px;
+    font-family: poppins;
+}
+.test1 h3{
+    font-family: poppins;
+}
+.projects{
+    background-color: #f2f2f2;
+    padding: 80px 140px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    line-height: 35px;
+}
+
+.contact{
+    text-align: center;
+    background: url(/images/img3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 20px;
+    color: #ffffff;
+    padding: 40px;
+}
+.contact h2,p{
+    margin-top:20px;
+    font-family: poppins;
+}
+.testimonials{
+    background-color: #f2f2f2;
+    padding: 80px 140px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    line-height: 35px;
+}
+.card-contain{
+    display:flex;
+    justify-content: space-evenly;
+    padding: 20px;
+
+
+}
+.i1st,.i2nd, .i3rd ,.i4th ,.i5th{
+    width: 20%;
+    height: 300px;
+  
+
+}
+.timg{
+
+}
+
+img{
+
+    width:100%;
+    height:100%;
+
+}
+.ttext{
+ background-color: #ffffff;
+
+
 }
