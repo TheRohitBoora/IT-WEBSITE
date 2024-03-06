@@ -7,11 +7,13 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="website icon" type="png" href="images/image.png">
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
 </head>
 <body>
     <header>  
     <nav>
-        <a href="#" class="logo"><img id="si" src="images/image.png" alt="small"></a>
+        <a href="#" class="logo"><img id="si" src="images/image.png" alt="small" style="width: 40px;height: 30px;padding: 20px;padding-top:14px ;
+            padding-bottom: 0px;"></a>
         <ul>
             <li><a href="">Home</a></li>
             <li><a href="#about">About</a></li>
@@ -214,8 +216,95 @@
     <section>
         <div class="team">
             <h1 class="heading">Our Team</h1>   
+            <div class="fcards">
             <div class="newcards">
-                
+                <div class="tcard">
+                    <div class="ticon">
+                        <img src="images/pexels-andrea-piacquadio-845434.jpg" alt="Avatar" >
+                    </div>
+                    <div class="info" align="center">
+                      <h4 class="th4"><b>Schott Watkins</b></h4> 
+                      <p class="tp">Web Developer</p> 
+                      <div class="icons">
+                        <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+                        <a href="https://twitter.com/login" class="fab fa-twitter"></a>
+                        <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+                        <a href="https://www.linkedin.com/" class="fab fa-linkedin"></a>
+                    </div>
+                    </div>
+                  </div> 
+            </div>
+            <div class="newcards">
+                <div class="tcard">
+                    <div class="ticon">
+                        <img src="images/pexels-andrea-piacquadio-745136.jpg" alt="Avatar" >
+                    </div>
+                    <div class="info" align="center">
+                      <h4 class="th4"><b>Nicole Bell</b></h4> 
+                      <p class="tp">Mobile Developer</p> 
+                      <div class="icons">
+                        <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+                        <a href="https://twitter.com/login" class="fab fa-twitter"></a>
+                        <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+                        <a href="https://www.linkedin.com/" class="fab fa-linkedin"></a>
+                    </div>
+                    </div>
+                  </div> 
+            </div>
+            <div class="newcards">
+                <div class="tcard">
+                    <div class="ticon">
+                        <img src="images/pexels-hussein-altameemi-2776353.jpg" alt="Avatar" >
+                    </div>
+                    <div class="info" align="center">
+                      <h4 class="th4"><b>John Doe</b></h4> 
+                      <p class="tp">Graphics Designer</p> 
+                      <div class="icons">
+                        <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+                        <a href="https://twitter.com/login" class="fab fa-twitter"></a>
+                        <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+                        <a href="https://www.linkedin.com/" class="fab fa-linkedin"></a>
+                    </div>
+                    </div>
+                  </div> 
+            </div>
+            <div class="newcards">
+                <div class="tcard">
+                    <div class="ticon">
+                        <img src="images/pexels-vinicius-wiesehofer-1130624.jpg" alt="Avatar" >
+                    </div>
+                    <div class="info" align="center">
+                      <h4 class="th4"><b>Rose Matthews</b></h4> 
+                      <p class="tp">Web Designer</p> 
+                      <div class="icons">
+                        <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+                        <a href="https://twitter.com/login" class="fab fa-twitter"></a>
+                        <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+                        <a href="https://www.linkedin.com/" class="fab fa-linkedin"></a>
+                    </div>
+                    </div>
+                  </div> 
+            </div>
+        </div>
+    </div>
+    </section>
+    <section>
+        <div class="touch">
+            <h1 class="heading">Our Clients</h1>
+            <div  class="mapform">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49361.27903967079!2d75.8804962845267!3d29.37103252463984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3912297fbabd5867%3A0xe07775c9db2a6e78!2sBus%20Stand%20Barwala!5e0!3m2!1sen!2sin!4v1709747005225!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+               
+                <div class="form">
+                    <form action="./contactme.php" method="POST">
+                            <input type="text" id="nam" name="name" placeholder="Name" required><br>
+                            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required placeholder="Contact number" maxlength="10"><br>
+                            <input type="email" id="email" name="email" placeholder="Email" required><br>
+                            <textarea id="holder" placeholder="Your Message" name="message" required></textarea><br>
+                            <button type="button" value="Submit" name="submit">Submit</button>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
